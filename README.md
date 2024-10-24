@@ -2,7 +2,7 @@
 
 You are being asked to create a python function called `count_domains` found in [domain_count.py](/domain_count.py).
 
-The function will take a list of 'domains'. It returns a list of tuples like (<domain>, <count>) sorted by the count descending. It also replaces `www` from the beginning of all domains (assuming it starts with `www`).
+The function will take a list of 'domains'. It returns a list of tuples like (`domain`, `count`) sorted by the count descending. It also replaces `www` from the beginning of all domains (assuming it starts with `www`).
 
 You can view the potential input and output values in the [test_scenarios.py](./test_scenarios.py) file.
 
