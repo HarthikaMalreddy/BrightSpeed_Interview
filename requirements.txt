@@ -1,2 +1,2 @@
 pytest==8.3.3
-# my-fake-module==2.0.0
+my-fake-module==2.0.0
