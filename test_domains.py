@@ -7,7 +7,7 @@ from test_scenarios import (
     third_expected_output
 )
 
-from domain_count import get_value_count_tuple
+from domain_count import count_domains
 
 setup_values = [
     (first_domain, first_expected_output),
@@ -17,6 +17,9 @@ setup_values = [
 
 def test_domain():
     for domain, outcome in setup_values:
-        output = get_value_count_tuple(domain)
+        output = count_domains(domain)
+
+        print(f"Domain : {domain}, Output : {output}, Expected : {outcome}")
 
         assert output == outcome, f"Sorry, you provided {output} expected {outcome}"
+       
