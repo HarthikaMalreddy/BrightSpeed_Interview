@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Instructions
 
 You are being asked to create a python function called `count_domains` found in [domain_count.py](/domain_count.py).
@@ -33,3 +34,6 @@ first_expected_output = [
 The expecation is that your code be put into a PR into the `main` branch of any repository and the test case run in github actions would succeed. You can find the one [test case here](./.github/workflows/test_domain_function.yml)
 
 Hint: The CI/CD pipeline might be broken!
+=======
+# BrightSpeed_Interview
+>>>>>>> origin/main
