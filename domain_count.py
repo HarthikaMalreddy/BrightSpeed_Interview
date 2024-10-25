@@ -8,6 +8,7 @@ def count_domains(domain_list):
             # Remove "www." if exists
             clean_domain = domain[4:] if domain.startswith("www.") else domain
             counts[clean_domain] += 1 # Increment count
+    
     # sort the counted domains by count in desc order
     sorted_count = sorted(counts.items(), key = lambda x : x[1], reverse = True)
     return sorted_count
